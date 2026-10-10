@@ -1,0 +1,21 @@
+#include<iostream>
+#include<conio.h>
+#include<windows.h>
+#include<String.h>
+using namespace std;
+int main()
+{
+ for(int i=5;i>=1;i--)
+   {
+        for(int s=1;s<=5-i;s++){
+            cout<<" ";
+        }
+        char ch='A';
+        for(int j=1;j<=i;j++){
+            cout<<ch++;
+        }
+        cout<<endl;
+    }
+return 0;
+}
+
